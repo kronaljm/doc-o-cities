@@ -1,0 +1,93 @@
+body{
+    background:linear-gradient(black,rgb(38, 0, 38));
+    background-color:black;
+    color:whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    user-select: none;
+}
+p#title{
+    background:linear-gradient(rgb(247, 0, 0), rgb(0, 0, 136));
+    color: transparent;
+    background-clip: text;
+    text-align:center;
+}
+p{
+    white-space: pre;
+    text-wrap:wrap;
+    padding-left:10px;
+    padding-right:10px;
+}
+div.box{
+    display:flex;
+    justify-content: center;
+    border: 2px solid white;
+    height:auto;
+    max-width:700px;
+    margin: auto;
+}
+div.links{
+    display:flex;
+    border: 2px solid white;
+    height:auto;
+    max-width:500px;
+    margin: auto;
+    text-wrap:wrap;
+    margin-top:50px;
+    margin-bottom:1000px;
+}
+
+
+
+a#toast{
+    color:purple;
+    text-decoration: underline;
+}
+a:link#toast{
+    color:purple;
+    text-decoration: underline;
+}
+a:visited#toast{
+    color:purple;
+    text-decoration: underline;
+}
+a:hover#toast{
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+
+a#figseem{
+    color:greenyellow;
+    text-decoration: underline;
+}
+a:link#figseem{
+    color:greenyellow;
+    text-decoration: underline;
+}
+a:visited#figseem{
+    color:greenyellow;
+    text-decoration: underline;
+}
+a:hover#figseem{
+    color:yellow;
+    text-decoration: underline;
+}
+
+
+
+#art{
+    line-height:1.5;
+}
+#changing{
+    color:white;
+    display:flex;
+    background-color:black;
+    position:relative;
+    height:100px;
+    width:100px;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    border: 2px solid white;
+    float:right;
+}

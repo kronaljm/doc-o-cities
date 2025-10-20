@@ -1,0 +1,158 @@
+body{
+    background-color:black;
+    color:whitesmoke;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    user-select: none;
+}
+div{
+    text-align: center;
+    display:flex;
+    margin:auto;
+    border: 2px solid white;
+    height:350px;
+    max-width:450px;
+}
+#title{
+    animation:10s linear 0s infinite running flashingtitle;
+    font-size:x-large;
+    background-color: blue;
+    max-width:500px;
+    margin:auto;
+    font-weight: bold;
+    display:inline-block;
+}
+#homescreen{
+    text-align: left;
+    white-space: pre;
+    font-size: 1.2rem;
+}
+button{
+    display:flex;
+    position:absolute;
+    margin:auto;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    background-color: transparent;
+    border-color: transparent;
+    color:whitesmoke;
+    cursor:pointer;
+}
+#a1{
+    margin-left:74px;
+    font-size:medium;
+}
+#b1{
+    margin-left:375px;
+    font-size:medium;
+}
+#c1{
+    margin-top: 305px;
+    margin-left:225px;
+    font-size:medium;
+}
+.invisible{
+    display:none;
+}
+.hide{
+    opacity:0;
+}
+#bullyingA{
+    text-align: left;
+    white-space: pre;
+    font-size: larger;
+    height:438px;
+
+}
+#runawayB{
+    text-align: left;
+    white-space: pre;
+    font-size: larger;
+    height:636px;
+}
+#yellC{
+    text-align: left;
+    white-space: pre;
+    font-size: larger;
+    height:1097px;
+}
+.fade{
+    animation-duration:2s;
+    animation-name:fade-in;
+}
+
+@keyframes fade-in{
+    from{opacity:0}
+    to{opacity:1}
+}
+@keyframes flashingtitle{
+    0%{color:red;}
+    20%{color:orange;}
+    40%{color:yellow;}
+    60%{color:green;}
+    80%{color:violet;}
+    100%{color:red;}
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color:green;
+    text-decoration: none;
+}
+.backbutton{
+    display:flex;
+    position: absolute;
+    justify-content: center;
+    border: 2px solid white;
+    height:20px;
+    width:75px;
+}
+#phone{
+   display:none;
+   height:50vh;
+   width:50vw;
+   padding:10px;
+   font-size:large;
+   text-align:center;
+   background-color:blue;
+}
+@media screen and (max-width:479px){ 
+    p{
+        display:none;
+    }
+    #homescreen{
+        display:none;
+    }
+    #phone{
+        display:flex;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content:center;
+        align-items: center;
+    }
+    #bullyingA{
+        display:none;
+    }
+    #yellC{
+        display:none;
+    }
+    #runawayB{
+        display:none;
+    }
+}
+div#credit{
+    border:0;
+    display:flex;
+    height:auto;
+    margin-left:48%;
+    margin-right:50%;
+}
