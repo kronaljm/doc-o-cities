@@ -7,7 +7,7 @@ html{
 }
 @font-face{
     font-family: 'courier prime';
-    src: url(/fonts/CourierPrime-Regular.ttf);
+    src: url(../fonts/CourierPrime-Regular.ttf);
 }
 body{
     display:flex;
