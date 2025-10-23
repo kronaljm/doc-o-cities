@@ -22,6 +22,7 @@ here are some stuff i plan to make, not in any order:<br><br>
 - [ ] file & folder better management<br>
 - [ ] spacing on ascii art for story demonstration<br>
 - [ ] wizards tower slower fade<br>
+- [ ] the "<- back" inconsistencies throughout the subsites<br>
 - [ ] complete mobile compatability for the entire site<br><br>
 
 - [ ] expurgated ;)
